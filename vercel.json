@@ -1,5 +1,5 @@
 {
     "builds": [
-      { "src": "../client", "use": "@vercel/static" }
+      { "src": "../client/**/*", "use": "@vercel/static" }
     ]
   }
